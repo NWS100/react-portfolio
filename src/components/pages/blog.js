@@ -1,9 +1,14 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 
 export default function() {
     return (
+    <div>
+        <h2> blog </h2>
+
         <div>
-            blog
+            <Link to="/about-me">Read more about myself</Link>
         </div>
-    )
+    </div>
+    );
 }

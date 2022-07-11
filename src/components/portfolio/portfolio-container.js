@@ -13,7 +13,8 @@ export default class PortfolioContainer extends Component {
                 { title: "HTML", category: "eCommerce", slug: 'html' },
                 { title: "CSS", category: "Scheduling", slug: 'css' },
                 { title: "JavaScript", category: "Enterprise", slug: 'javascript'},
-                { title: "React", category: "eCommerce", slug: 'react'}
+                { title: "React", category: "eCommerce", slug: 'react'},
+                { title: "Block", category: "Scheduling", slug: 'block'}
             ]
         }
         this.handleFilter = this.handleFilter.bind(this);
